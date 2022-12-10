@@ -9,6 +9,7 @@ const getAllCooperativas = async (req, res) => {
   };
 };
 
+
 const getCooperativaById = async (req, res) => {
   try {   
     const findCooperativa = await CooperativasModel.findById(req.params.id);
@@ -88,6 +89,7 @@ module.exports = {
   getAllCooperativas,
   getCooperativaById,
   updateCooperativa,
-  deleteCooperativa
+  deleteCooperativa,
+
   
 }

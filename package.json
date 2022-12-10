@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "swagger-autogen": "node swagger.js"
+    "swagger-autogen": "node swagger.js",
+    "test": "jest ./test/api.test.js"
+    
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,10 @@
     "swagger-ui-express": "^4.6.0"
   },
   "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "28.1.0",
     "nodemon": "^2.0.20"
   }
 }
