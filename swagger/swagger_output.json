@@ -147,27 +147,6 @@
         }
       }
     },
-    "/casadepano/cooperativas/{name}": {
-      "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "name",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
     "/casadepano/fabricas/add": {
       "post": {
         "description": "",
