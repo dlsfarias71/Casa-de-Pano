@@ -9,7 +9,6 @@ const getAllCooperativas = async (req, res) => {
   };
 };
 
-
 const getCooperativaById = async (req, res) => {
   try {   
     const findCooperativa = await CooperativasModel.findById(req.params.id);
@@ -19,15 +18,6 @@ const getCooperativaById = async (req, res) => {
   }
 };
 
-
-const getCooperativaCity = async (req, res) => {
-  try {   
-    const findCooperativa = await CooperativasModel.find(req.params.city).populate("cooperativas");
-    res.status(200).json(findCooperativa);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
 
 const addNewCooperativa = async (req, res) => {
   try {
@@ -99,8 +89,8 @@ module.exports = {
   getAllCooperativas,
   getCooperativaById,
   updateCooperativa,
-  deleteCooperativa,
-  getCooperativaCity
+  deleteCooperativa
+  
 
   
 }
