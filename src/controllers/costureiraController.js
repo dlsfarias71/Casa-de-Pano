@@ -1,5 +1,6 @@
 const costureirasModel = require("../models/costureirasModel");
 const cooperativasModel = require("../models/cooperativasModel");
+const costureira = require("../models/costureirasModel");
 
 
 const getAllcostureiras = async (req, res) => {
@@ -24,6 +25,7 @@ const getCostureiraById = async (req, res) => {
     res.status(500).json({ message: error.message });
   };
 };
+
 
 const postNewCostureira = async (req, res) => {
   console.log("00")
@@ -127,5 +129,6 @@ module.exports = {
   postNewCostureira,
   updateCostureira,
   deleteCostureira,
+ 
 
 };

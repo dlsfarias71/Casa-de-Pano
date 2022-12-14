@@ -19,6 +19,8 @@ const getFabricaById = async (req, res) => {
   }
 };
 
+
+
 const addNewFabrica = async (req, res) => {
   try {
     const {
