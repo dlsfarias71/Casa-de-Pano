@@ -47,7 +47,7 @@ O polo de confecções do agreste pernambucano é o segundo maior do Brasil , pe
 
 </br>
 
-📄 Você pode visualizar meu [https://api-casa-de-pano.onrender.com/minha-rota-de-documentacao/]().
+📄 Você pode visualizar meu [https://api-casa-de-pano.onrender.com/minha-rota-de-documentacao]().
 </br>
 
 
