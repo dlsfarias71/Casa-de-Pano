@@ -82,8 +82,10 @@ O polo de confecções do agreste pernambucano é o segundo maior do Brasil , pe
    |  |    |- 📄 costureirasRoute.js
    |  |    |- 📄 fabricasRoute.js
    |  |
-   |  ||-📄 app.js
    |  |
+   |  |--📁 test
+   |  |       |- 📄 api.test.js
+   |-📄 app.js
    |  |--📁 swagger
    |  |   |- 📄 swagger_output.json
    |  |
@@ -114,6 +116,7 @@ Ordem de instalações no terminal:
 - `npm i express cors` 
 - `npm install --save dotenv-safe`
 - `npm i swagger-autogen swagger-ui-express`
+- `npm install --save-exact jest@28.1.0 --save-dev`
 
 
 </br>
